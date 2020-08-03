@@ -7,13 +7,19 @@ Ilya Tyuryukanov, "Graph Partitioning Algorithms for Control of AC Transmission 
 
 The repository is organized as an object-oriented MATLAB toolbox, in which MATLAB classes unite groups of methods related to different topics or use cases.
 
-@BaseIn 	 - The parent class of MatpowerIn; it contains some rudimentary fields aimed at broader use cases beyond MATPOWER data.
-@MatpowerIn  - The class to store and process the data from MATPOWER.
-@GraphUtils  - The static class combining various methods primarily aimed at working with graph matrices (e.g., adjancency or incidence matrices), but also with graphs represented in other formats.
-@PFgraph     - A custom MATLAB class to represent power system graphs. Its methods partially intersect with those of @GraphUtils, but require a PFgraph object as input.
-@Utils 	     - An auxiliary static MATLAB class containing some auxiliary methods not directly related to the main subject. 
-@PST 	     - The static MATLAB class containing some functions related to generator coherency. Its contents are mostly adapted from the Power System Toolbox [3] by the permission of Prof. Dr. J.H. Chow.
-@VCA 	     - The static MATLAB class containing some functions related to secondary voltage control.
+**@BaseIn** 	   - The parent class of MatpowerIn; it contains some rudimentary fields aimed at broader use cases beyond MATPOWER data.
+
+**@MatpowerIn**  - The class to store and process the data from MATPOWER.
+
+**@GraphUtils**  - The static class combining various methods primarily aimed at working with graph matrices (e.g., adjancency or incidence matrices), but also with graphs represented in other formats.
+
+**@PFgraph**     - A custom MATLAB class to represent power system graphs. Its methods partially intersect with those of @GraphUtils, but require a PFgraph object as input.
+
+**@Utils** 	     - An auxiliary static MATLAB class containing some auxiliary methods not directly related to the main subject. 
+
+**@PST** 	       - The static MATLAB class containing some functions related to generator coherency. Its contents are mostly adapted from the Power System Toolbox [3] by the permission of Prof. Dr. J.H. Chow.
+
+**@VCA** 	       - The static MATLAB class containing some functions related to secondary voltage control.
 
 The toolbox allows to run the case studies from [1] and the related journal and conference papers.
 Besides running the existing case studies, the code can be helpful to the researchers and engineers who would like to apply the ideas and methods from [1] in their own projects.
